@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yhw_flutter_app/colorfulText.dart';
 
 void main() {
   runApp(const MyApp());
@@ -105,6 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const ColorfulText(text: "春天的脚步轻轻地走进大地，万物开始苏醒。春风拂过，温暖的阳光洒满了大地，带来了春天的喜悦和希望。这是一个生机勃勃的季节，燕子也开始飞回了故乡。随着春天的到来，天空中的燕子开始一次次地展翅飞翔。它们在蓝天白云的映衬下，成群结队地穿梭于树林间，欢快地歌唱着。它们的归来是大自然给我们的一个美丽的礼物，象征着春天的降临和生命的回归。"),
             const Text(
               'You have pushed the button this many times:',
             ),
